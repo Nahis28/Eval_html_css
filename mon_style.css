@@ -1,6 +1,8 @@
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-left: 300px;
+    width: 80%;
 }
 
 h3, h4 {
@@ -39,10 +41,14 @@ img {
 
 .plaid_decouverte h4 {
     margin-left: 120px;
+    margin-bottom: 0;
+    position: relative;
 }
 
 .plaid_decouverte img {
     margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .colonne_droite {
@@ -94,4 +100,34 @@ p {
 #article_4 {
     grid-column: 2;
     grid-row: 2;
+}
+
+.fleche{
+    border: solid #ebe2d7;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 4px;
+    position: absolute;
+    left: 230px;
+    transform: rotate(-45deg);
+}
+
+.fleche:hover {
+    transform: scale(1.8) rotate(-45deg);
+}
+  
+
+.superposition {
+    position: relative;
+}
+
+.superposition p {
+    position: absolute;
+    left: -35px;
+    top: 280px;
+}
+
+.superposition div {
+    position: absolute;
+    top: 600px;
 }

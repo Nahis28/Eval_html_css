@@ -1,137 +1,140 @@
 @media (max-width: 1920px) {
 
-.container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-left: 300px;
-    padding-right: 300px;
-}
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
 
-h3, h4 {
-    color: #7c925e;
-}
+    h3, h4 {
+        color: #7c925e;
+    }
 
-#image_accueil {
-    width: 470px;
-}
+    #image_accueil {
+        width: 470px;
+    }
 
-img {
-    width: 150px;
-}
+    img {
+        width: 150px;
+    }
 
-.colonne_gauche a {
-    text-decoration: none;
-}
+    .colonne_gauche a {
+        text-decoration: none;
+    }
 
-.colonne_gauche h4 {
-    color: #6d6d6d;
-}
+    .colonne_gauche h4 {
+        color: #6d6d6d;
+    }
 
-.colonne_gauche p {
-    color: #6d6d6d;
-    background-color: #ebe2d7;
-    width: 500px;
-    padding: 20px;
-}
+    .colonne_gauche p {
+        color: #6d6d6d;
+        background-color: #ebe2d7;
+        width: 500px;
+        padding: 20px;
+    }
 
-.colonne_gauche div {
-    width: 470px;
-    border: solid #ebe2d7 2px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.185);
-}
+    .colonne_gauche div {
+        width: 470px;
+        border: solid #ebe2d7 2px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.185);
+    }
 
-.plaid_decouverte h4 {
-    margin-left: 120px;
-    margin-bottom: 0;
-    position: relative;
-}
+    .plaid_decouverte h4 {
+        margin-left: 120px;
+        margin-bottom: 0;
+        position: relative;
+    }
 
-.plaid_decouverte img {
-    margin-left: 160px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
-.colonne_droite {
-    grid-column: 2;
-    display: grid;
-    grid-column: 50% 50%;
-    gap: 10%;
-}
+    .plaid_decouverte img {
+        margin-left: 160px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.colonne_droite article {
-    /*border: solid black 1px;*/
-    color: #6d6d6d;
-    width: 250px;
-    height: 310px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .colonne_droite {
+        grid-column: 2;
+        display: grid;
+        grid-column: 50% 50%;
+        gap: 10%;
+    }
 
-p {
-    text-align: justify;
-    font-size: 18px;
-}
+    .colonne_droite article {
+        color: #6d6d6d;
+        width: 250px;
+        height: 310px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.colonne_droite img {
-    margin-right: 10px;
-    margin-bottom: 5px;
-    float: left;
-}
+    p {
+        text-align: justify;
+        font-size: 18px;
+    }
 
-.colonne_droite h3 {
-    font-size:24px;
-    /*border: solid black 1px;*/
-    margin-top: 20px;
-}
+    .colonne_droite img {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        float: left;
+    }
 
-#article_1 {
-    grid-column: 1;
-}
+    .colonne_droite h3 {
+        font-size:24px;
+        margin-top: 20px;
+    }
 
-#article_2 {
-    grid-column: 1;
-    grid-row: 2;
-}
+    .colonne_droite a {
+        text-decoration: none;
+    }
 
-#article_3 {
-    grid-column: 2;
-}
+    #article_1 {
+        grid-column: 1;
+    }
 
-#article_4 {
-    grid-column: 2;
-    grid-row: 2;
-}
+    #article_2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
 
-.fleche{
-    border: solid #ebe2d7;
-    border-width: 0 10px 10px 0;
-    display: inline-block;
-    padding: 4px;
-    position: absolute;
-    left: 230px;
-    transform: rotate(-45deg);
-}
+    #article_3 {
+        grid-column: 2;
+    }
 
-.fleche:hover {
-    transform: scale(1.8) rotate(-45deg);
-}
-  
+    #article_4 {
+        grid-column: 2;
+        grid-row: 2;
+    }
 
-.superposition {
-    position: relative;
-}
+    .fleche{
+        border: solid #ebe2d7;
+        border-width: 0 10px 10px 0;
+        display: inline-block;
+        padding: 4px;
+        position: absolute;
+        left: 230px;
+        transform: rotate(-45deg);
+    }
 
-.superposition p {
-    position: absolute;
-    left: -35px;
-    top: 280px;
-}
+    .fleche:hover {
+        transform: scale(1.8) rotate(-45deg);
+    }
+    
 
-.superposition div {
-    position: absolute;
-    top: 600px;
-}
+    .superposition {
+        position: relative;
+    }
+
+    .superposition p {
+        position: absolute;
+        left: -35px;
+        top: 280px;
+    }
+
+    .superposition div {
+        position: absolute;
+        top: 600px;
+    }
 
 }

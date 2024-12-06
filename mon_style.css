@@ -1,8 +1,10 @@
+@media (max-width: 1920px) {
+
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-left: 300px;
-    width: 80%;
+    padding-right: 300px;
 }
 
 h3, h4 {
@@ -130,4 +132,6 @@ p {
 .superposition div {
     position: absolute;
     top: 600px;
+}
+
 }

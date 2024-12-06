@@ -6,6 +6,24 @@
     <title>Document</title>
 </head>
 <body>
+    <footer>
+        <form method="post" action="adresse.php">
+            <h2>Contactez-nous</h2>
+            <div id="coordonnees">
+                <input type="text" name="nom" placeholder="Nom" minlength="2" required>
+                <br>
+                <input type="text" name="prenom" placeholder="Prénom" minlength="2" required>
+                <br>
+                <input type="email" name="email" placeholder="Mail" required>
+            </div>
+
+            <div id="commentaire">
+                <textarea name="comment" id="commentaire" ></textarea>
+                <br>                
+                <input type="submit" value="Envoyer" id="envoie">
+            </div>
+        </form>
+    </footer>
     
 </body>
 </html>
